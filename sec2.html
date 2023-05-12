@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width" />
+    <title>Document</title>
+
+        <style>
+                *{
+                    margin: auto;
+                    box-sizing: border-box;
+                    font-size: 10px;
+                }
+                    .container{
+                        display: flex;
+                        flex-wrap: wrap;
+                        background-color: red;
+                        align-items: center;
+                        justify-content: center;
+                        justify-content: space-evenly;
+                    }
+                    .flex-item
+                    {
+                        margin:25px;
+                    }
+                    #item1{
+                        display: flex;
+                        align-items: center;
+                        align-content: center;
+                        flex-wrap: wrap;
+                        background-color: whitesmoke;
+                    }
+                    .header p{
+                        font-size: 7rem;
+                        font-family: 'Times New Roman';
+                    }
+                    .text p{
+                        font-size: 1.5rem;
+                        font-family: verdana;
+                        text-align: justify;
+                        padding: 10px;
+                    }
+
+                    #item2{
+                        display: flex;
+                        flex-direction: row;
+                        margin:10px;
+                    }
+                    .fot{
+                        display: flex;
+                        flex-direction: column;
+                        margin:10px;
+                    }
+                    .fot-header p{
+                        font-family: 'Times New Roman';
+                        font-size: 4rem;
+                        text-decoration: underline;
+                        color: white;
+                    }
+
+                    .fot-txt p{
+                        font-family: verdana;
+                        font-size: 1.5rem;
+                        text-align: justify;
+                        padding: 10px;
+                        color: lavender;
+                    }
+
+                    @media only screen and (max-width: 700px)
+                    {
+                        html{
+                            font-size: 50%;
+                        }
+                        #item2{
+                            display: flex;
+                            flex-direction: column;
+                            margin:10px;
+                        }
+                        
+
+                    } 
+        </style>
+</head>
+<body>
+    <div class="container">
+
+            <div class="flex-item" id="item1">
+                    <div class="header">
+                        <p> HELLO WORLD !!! </p>
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo corporis, recusandae nam perferendis voluptatem facere. Exercitationem officiis, magni voluptates quia, adipisci porro explicabo, laudantium maiores corrupti dolorem doloribus aut deleniti.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolor corrupti necessitatibus inventore itaque vel quasi? Minima ab odio officiis expedita modi molestias harum dolor voluptatem! Id eum ut voluptatem?
+                        </p>
+                    </div>
+            </div>
+
+            <div class="flex-item div2" id="item2">
+                <div class="fot" id="fotter1">
+                    <div class="fot-header">
+                        <p>THIS IS THE HEADING</p>
+                    </div>
+                    <div class="fot-txt">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis quae odit corporis magnam unde necessitatibus rerum? Quod non nostrum consequuntur perferendis! Laboriosam praesentium fugit illum pariatur distinctio iusto facilis!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, natus. Soluta cumque quod, quaerat ipsum incidunt quos possimus non sapiente doloribus, eveniet ullam cupiditate maiores, quibusdam similique consequatur quae sequi!
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum dolores sit, nulla itaque modi voluptates doloremque laboriosam tempora quae magni ea velit, suscipit dicta nobis? Adipisci nisi quos deserunt illo.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis quae odit corporis magnam unde necessitatibus rerum? Quod non nostrum consequuntur perferendis! Laboriosam praesentium fugit illum pariatur distinctio iusto facilis!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, natus. Soluta cumque quod, quaerat ipsum incidunt quos possimus non sapiente doloribus, eveniet ullam cupiditate maiores, quibusdam similique consequatur quae sequi!
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum dolores sit, nulla itaque modi voluptates doloremque laboriosam tempora quae magni ea velit, suscipit dicta nobis? Adipisci nisi quos deserunt illo.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis corrupti quidem nostrum sequi adipisci architecto mollitia cumque, inventore, facere maiores accusantium commodi suscipit labore! Ut soluta sit eaque commodi temporibus!
+                        </p>
+                    </div>
+                </div>
+                <div class="fot" id="fotter2">
+                    <div class="fot-header">
+                        <p>THIS IS THE HEADING</p>
+                    </div>
+                    
+                    <div class="fot-txt">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis quae odit corporis magnam unde necessitatibus rerum? Quod non nostrum consequuntur perferendis! Laboriosam praesentium fugit illum pariatur distinctio iusto facilis!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, natus. Soluta cumque quod, quaerat ipsum incidunt quos possimus non sapiente doloribus, eveniet ullam cupiditate maiores, quibusdam similique consequatur quae sequi!
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum dolores sit, nulla itaque modi voluptates doloremque laboriosam tempora quae magni ea velit, suscipit dicta nobis? Adipisci nisi quos deserunt illo.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis corrupti quidem nostrum sequi adipisci architecto mollitia cumque, inventore, facere maiores accusantium commodi suscipit labore! Ut soluta sit eaque commodi temporibus!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis quae odit corporis magnam unde necessitatibus rerum? Quod non nostrum consequuntur perferendis! Laboriosam praesentium fugit illum pariatur distinctio iusto facilis!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, natus. Soluta cumque quod, quaerat ipsum incidunt quos possimus non sapiente doloribus, eveniet ullam cupiditate maiores, quibusdam similique consequatur quae sequi!
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum dolores sit, nulla itaque modi voluptates doloremque laboriosam tempora quae magni ea velit, suscipit dicta nobis? Adipisci nisi quos deserunt illo.
+                        </p>
+                    </div>
+                </div>
+                <div class="fot" id="fotter3">
+                    <div class="fot-header">
+                        <p>THIS IS THE HEADING</p>
+                    </div>
+                    <div class="fot-txt">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis quae odit corporis magnam unde necessitatibus rerum? Quod non nostrum consequuntur perferendis! Laboriosam praesentium fugit illum pariatur distinctio iusto facilis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis quae odit corporis magnam unde necessitatibus rerum? Quod non nostrum consequuntur perferendis! Laboriosam praesentium fugit illum pariatur distinctio iusto facilis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis quae odit corporis magnam unde necessitatibus rerum? Quod non nostrum consequuntur perferendis! Laboriosam praesentium fugit illum pariatur distinctio iusto facilis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis quae odit corporis magnam unde necessitatibus rerum? Quod non nostrum consequuntur perferendis! Laboriosam praesentium fugit illum pariatur distinctio iusto facilis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis quae odit corporis magnam unde necessitatibus rerum? Quod non nostrum consequuntur perferendis! Laboriosam praesentium fugit illum pariatur distinctio iusto facilis!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, natus. Soluta cumque quod, quaerat ipsum incidunt quos possimus non sapiente doloribus, eveniet ullam cupiditate maiores, quibusdam similique consequatur quae sequi!
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum dolores sit, nulla itaque modi voluptates doloremque laboriosam tempora quae magni ea velit, suscipit dicta nobis? Adipisci nisi quos deserunt illo.
+                        </p>
+                    </div>
+                </div> 
+            </div>
+    </div>
+</body>
+</html>

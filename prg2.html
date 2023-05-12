@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        
+    <style>
+        *{
+            margin: auto;
+        }
+        .outer{
+            display: flex;
+            flex-wrap: wrap;
+            height: 99.9vh;
+        }
+
+        .flex-item{
+            height: 31vh;
+            width: auto;
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            
+        }
+        #container1{
+            margin-bottom: 3.5vh;
+            background-color: pink;
+            
+        }
+        .inner1{
+            background-color: red;
+            height:20vh;
+            width: 35%;
+        }
+        #container2{
+            margin-bottom: 3.5vh;
+            background-color: yellow;
+            flex-direction: column;
+            justify-content: space-around;
+
+        }
+        .inner2{
+            width : 85%;
+            height:5.5vh;
+        }
+        #second1{
+            background-color: green;
+        }
+        #second2{
+            background-color: blue;
+        }
+        #second3{
+            background-color:cornflowerblue;
+        }
+
+        #container3{
+            
+            background-color: rgb(225, 218, 221);
+            flex-direction: row;
+            justify-content: center;
+        }
+        .inner3{
+            height: 25vh;
+        }
+        #third2{
+            width : 25%;
+            background-color: darkslategrey;
+        }
+        #third1{
+            background-color: darkorange;
+            width: 45%;
+        }
+    </style>
+</head>
+<body>
+        <div class="outter">
+            <div class="flex-item" id="container1">
+                <div class="inner1 " id="first1"></div>
+                <div class="inner1 " id="first"2></div>
+            </div>
+            <div class="flex-item" id="container2">
+                <div class="inner2 " id="second1"></div>
+                <div class="inner2 " id="second2"></div>
+                <div class="inner2 " id="second3"></div>
+            </div>
+            <div class="flex-item" id="container3">
+                <div class="inner3 " id="third1"></div>
+                <div class="inner3 " id="third2"></div>
+            </div>
+        </div>
+</body>
+</html>
